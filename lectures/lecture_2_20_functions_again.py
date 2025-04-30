@@ -32,11 +32,11 @@ def f1():
 
 
 def f2():
-   return 7
+   return 8
 
 
 x = f1()
 y = f2()
 
 print(x)  #f1 does not return anything so it prints None
-print(y)  #prints 7
+print(y)  #prints 8
