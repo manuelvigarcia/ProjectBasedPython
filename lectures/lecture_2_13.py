@@ -56,4 +56,10 @@ print(str1a.split()) #split according to white space
 print(str1a.replace('cat','black cat')) #replace cat of str1a with black cat
 
 
+numbers = list(range(1,20,3))
+print(numbers)
+for index, num in enumerate(numbers):
+    print(f"{index} - {num} = {numbers[index]}")
+    print(f"{numbers[:index]} - {numbers[index]} - {numbers[index+1:]}")
+
 
